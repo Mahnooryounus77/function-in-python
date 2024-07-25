@@ -1,0 +1,13 @@
+
+def max_of_three(x, y, z):
+
+    if x >= y and x >= z:
+            return x
+    else:
+            return z
+    if y >= z:
+            return y
+    else:
+            return z
+    
+print(max_of_three(100, 10, 50))  
